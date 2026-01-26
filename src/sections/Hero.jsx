@@ -1,3 +1,7 @@
 export const Hero = () => {
-    return <section></section>;
-};
+  return (
+    <section>
+      <h1>helloooo</h1>
+    </section>
+  )
+}
