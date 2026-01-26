@@ -1,4 +1,11 @@
 import { Hero } from "./sections/Hero"
+import { About } from "./sections/About"
+import { Contact } from "./sections/Contact"
+import { Experience } from "./sections/Experience"
+import { Projects } from "./sections/Projects"
+import { Testimonials } from "./sections/Testimonials"
+
+
 
 function App() {
   return (
@@ -6,6 +13,11 @@ function App() {
       {/* <Navbar /> */}
       <main>
         <Hero />
+        <About />
+        <Contact />
+        <Experience />
+        <Projects />
+        <Testimonials />
       </main>
     </div>
   )
