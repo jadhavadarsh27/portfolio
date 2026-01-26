@@ -1,17 +1,12 @@
 
-
 function App() {
-  
 
-  return
-    <div>
-     classnName="min-h-screen overflow-x-hidden"> 
+return (
+    <div classnName="min-h-screen overflow-x-hidden"> 
      <Navbar />
-     <main>
-      
-     </main>
-
+     <main> </main>
     </div>
-}
+);
 
+}
 export default App
